@@ -1,24 +1,23 @@
+// src/app/page.tsx
+// Main dashboard page — Server Component
+// Business cards will be added in Plan 02
+
 import { getDashboardStats, getBusinesses } from '@/data/businesses'
+import { DashboardHeader } from '@/components/DashboardHeader'
 
 export default function Home() {
   const stats = getDashboardStats()
   const businesses = getBusinesses()
 
   return (
-    <main style={{ padding: '2rem', fontFamily: 'system-ui' }}>
-      <h1>SEO Neo Results Dashboard</h1>
-      <p>Businesses loaded: {stats.totalBusinesses}</p>
-      <p>Total keywords: {stats.totalKeywords}</p>
-      <p>100 Content: {stats.byCampaignType['100-content']}</p>
-      <p>1 Content/spin: {stats.byCampaignType['1-content-spin']}</p>
-      <p>Cloud Posting: {stats.byCampaignType['cloud-posting']}</p>
-      <ul>
-        {businesses.map(b => (
-          <li key={b.id}>
-            {b.name} — {b.images.length} images, {b.keywords.length} keywords
-          </li>
-        ))}
-      </ul>
-    </main>
+    <>
+      <DashboardHeader stats={stats} />
+      <main className="main-content">
+        {/* Business cards will be added in Plan 02 */}
+        <p style={{ color: 'var(--color-text-secondary)' }}>
+          {businesses.length} businesses loaded — cards coming next.
+        </p>
+      </main>
+    </>
   )
 }
