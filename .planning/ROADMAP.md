@@ -17,10 +17,10 @@ Parse a markdown data file containing 11 businesses across 3 campaign types, the
 **Depends on**: Nothing (first phase)
 **Requirements**: DATA-01, DATA-02, DATA-03
 **Success Criteria** (what must be TRUE):
-  1. All 11 businesses are parsed from the markdown file with name, keywords, campaign type, target URLs, S3 image URLs, and public heatmap links
+  1. All 13 businesses are parsed from the markdown file with name, keywords, campaign type, S3 image URLs, and public heatmap links (research confirmed 13 entries, not 11 — see 01-RESEARCH.md)
   2. Each business is correctly categorized into one of 3 campaign types
   3. Businesses with missing or malformed fields (empty image URLs, inconsistent formatting) do not crash the parser — they render gracefully with fallback values
-**Plans**: TBD
+**Plans**: PLAN-01-scaffold, PLAN-02-parser
 
 ### Phase 2: Visual Dashboard
 **Goal**: Prospects can see every business and its keyword heatmap wins at a glance
@@ -51,6 +51,6 @@ Parse a markdown data file containing 11 businesses across 3 campaign types, the
 
 | Phase | Plans Complete | Status | Completed |
 |-------|----------------|--------|-----------|
-| 1. Data Foundation | 0/TBD | Not started | - |
+| 1. Data Foundation | 0/2 | Ready to execute | - |
 | 2. Visual Dashboard | 0/TBD | Not started | - |
 | 3. Interactivity | 0/TBD | Not started | - |
