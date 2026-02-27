@@ -12,7 +12,7 @@ interface BusinessCardProps {
 
 export function BusinessCard({ business }: BusinessCardProps) {
   return (
-    <article className="business-card" id={business.id}>
+    <article className="business-card scroll-animate" id={business.id}>
       <div className="card-header">
         <div className="card-title-group">
           <h2 className="card-business-name">{business.name}</h2>
