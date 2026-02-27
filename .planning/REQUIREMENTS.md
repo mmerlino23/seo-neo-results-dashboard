@@ -13,9 +13,9 @@
 
 ### Visual Display
 
-- [ ] **DISP-01**: Each business renders as a bold visual card with business name, keyword count, and campaign type badge
-- [ ] **DISP-02**: Each business card shows a grid of S3 heatmap screenshot images, one per keyword
-- [ ] **DISP-03**: Each heatmap image has its keyword label displayed
+- [x] **DISP-01**: Each business renders as a bold visual card with business name, keyword count, and campaign type badge
+- [x] **DISP-02**: Each business card shows a grid of S3 heatmap screenshot images, one per keyword
+- [x] **DISP-03**: Each heatmap image has its keyword label displayed
 - [ ] **DISP-04**: User can click any heatmap image to view it full-size in a lightbox overlay
 - [x] **DISP-05**: Dashboard header shows summary stats: total businesses, total keywords, campaign type breakdown
 - [ ] **DISP-06**: Business cards animate in on scroll with smooth entrance effects
@@ -24,7 +24,7 @@
 
 - [ ] **NAV-01**: User can search/filter businesses by name via a search input
 - [ ] **NAV-02**: User can filter businesses by campaign type with toggle buttons
-- [ ] **NAV-03**: Each business card has a "View Full Timeline" button that opens the public heatmap page in a new tab
+- [x] **NAV-03**: Each business card has a "View Full Timeline" button that opens the public heatmap page in a new tab
 - [ ] **NAV-04**: Smooth scroll between business sections
 
 ### Design
@@ -59,15 +59,15 @@
 | DATA-01 | Phase 1 | Complete |
 | DATA-02 | Phase 1 | Complete |
 | DATA-03 | Phase 1 | Complete |
-| DISP-01 | Phase 2 | Pending |
-| DISP-02 | Phase 2 | Pending |
-| DISP-03 | Phase 2 | Pending |
+| DISP-01 | Phase 2 | Complete |
+| DISP-02 | Phase 2 | Complete |
+| DISP-03 | Phase 2 | Complete |
 | DISP-04 | Phase 2 | Pending |
 | DISP-05 | Phase 2 | Complete |
 | DISP-06 | Phase 2 | Pending |
 | NAV-01 | Phase 3 | Pending |
 | NAV-02 | Phase 3 | Pending |
-| NAV-03 | Phase 2 | Pending |
+| NAV-03 | Phase 2 | Complete |
 | NAV-04 | Phase 3 | Pending |
 | DSGN-01 | Phase 2 | Complete |
 | DSGN-02 | Phase 2 | Complete |
