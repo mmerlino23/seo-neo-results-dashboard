@@ -10,27 +10,27 @@ See: .planning/PROJECT.md (updated 2026-02-27)
 ## Current Position
 
 Phase: 1 of 3 (Data Foundation)
-Plan: 0 of 2 in current phase
-Status: Ready to execute
-Last activity: 2026-02-27 — Phase 1 plans created (PLAN-01-scaffold, PLAN-02-parser)
+Plan: 1 of 2 in current phase
+Status: Executing
+Last activity: 2026-02-27 — Plan 01 (scaffold) completed
 
-Progress: [░░░░░░░░░░] 0%
+Progress: [█░░░░░░░░░] 10%
 
 ## Performance Metrics
 
 **Velocity:**
-- Total plans completed: 0
-- Average duration: -
-- Total execution time: -
+- Total plans completed: 1
+- Average duration: 8 min
+- Total execution time: 8 min
 
 **By Phase:**
 
 | Phase | Plans | Total | Avg/Plan |
 |-------|-------|-------|----------|
-| - | - | - | - |
+| 01-data-foundation | 1/2 | 8 min | 8 min |
 
 **Recent Trend:**
-- Last 5 plans: -
+- Last 5 plans: 8 min
 - Trend: -
 
 *Updated after each plan completion*
@@ -45,17 +45,20 @@ Recent decisions affecting current work:
 - Static site from parsed markdown — simplest approach, data changes infrequently
 - Bold sales page design — audience is prospects, needs to impress
 - S3 images as primary visual + link to interactive timeline — best of both worlds
+- Manually scaffolded instead of create-next-app — tool cannot write into non-empty directories
+- Pinned Next.js 15.3.9 (v15 stable) not v16 per plan spec
+- Tailwind 4 @import syntax confirmed, named CSS class pattern established in globals.css
 
 ### Pending Todos
 
-None yet.
+None.
 
 ### Blockers/Concerns
 
-None yet.
+None.
 
 ## Session Continuity
 
 Last session: 2026-02-27
-Stopped at: Roadmap created, ready to plan Phase 1
+Stopped at: Completed 01-data-foundation 01-PLAN.md (scaffold)
 Resume file: None
