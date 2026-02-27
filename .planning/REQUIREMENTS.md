@@ -17,7 +17,7 @@
 - [ ] **DISP-02**: Each business card shows a grid of S3 heatmap screenshot images, one per keyword
 - [ ] **DISP-03**: Each heatmap image has its keyword label displayed
 - [ ] **DISP-04**: User can click any heatmap image to view it full-size in a lightbox overlay
-- [ ] **DISP-05**: Dashboard header shows summary stats: total businesses, total keywords, campaign type breakdown
+- [x] **DISP-05**: Dashboard header shows summary stats: total businesses, total keywords, campaign type breakdown
 - [ ] **DISP-06**: Business cards animate in on scroll with smooth entrance effects
 
 ### Navigation
@@ -29,10 +29,10 @@
 
 ### Design
 
-- [ ] **DSGN-01**: Bold sales page aesthetic — eye-catching gradients, professional typography, designed to impress prospects
-- [ ] **DSGN-02**: No solid color backgrounds — gradient backgrounds with texture
+- [x] **DSGN-01**: Bold sales page aesthetic — eye-catching gradients, professional typography, designed to impress prospects
+- [x] **DSGN-02**: No solid color backgrounds — gradient backgrounds with texture
 - [ ] **DSGN-03**: Fully responsive on mobile and desktop
-- [ ] **DSGN-04**: Tailwind 4 with named CSS classes in globals.css (no raw utility classes in TSX)
+- [x] **DSGN-04**: Tailwind 4 with named CSS classes in globals.css (no raw utility classes in TSX)
 
 ## v2 Requirements
 
@@ -63,16 +63,16 @@
 | DISP-02 | Phase 2 | Pending |
 | DISP-03 | Phase 2 | Pending |
 | DISP-04 | Phase 2 | Pending |
-| DISP-05 | Phase 2 | Pending |
+| DISP-05 | Phase 2 | Complete |
 | DISP-06 | Phase 2 | Pending |
 | NAV-01 | Phase 3 | Pending |
 | NAV-02 | Phase 3 | Pending |
 | NAV-03 | Phase 2 | Pending |
 | NAV-04 | Phase 3 | Pending |
-| DSGN-01 | Phase 2 | Pending |
-| DSGN-02 | Phase 2 | Pending |
+| DSGN-01 | Phase 2 | Complete |
+| DSGN-02 | Phase 2 | Complete |
 | DSGN-03 | Phase 3 | Pending |
-| DSGN-04 | Phase 2 | Pending |
+| DSGN-04 | Phase 2 | Complete |
 
 **Coverage:**
 - v1 requirements: 17 total

@@ -55,5 +55,5 @@ Parse a markdown data file containing 11 businesses across 3 campaign types, the
 | Phase | Plans Complete | Status | Completed |
 |-------|----------------|--------|-----------|
 | 1. Data Foundation | 2/2 | Complete   | 2026-02-27 |
-| 2. Visual Dashboard | 0/3 | Planning complete | - |
+| 2. Visual Dashboard | 1/3 | In Progress|  |
 | 3. Interactivity | 0/TBD | Not started | - |
