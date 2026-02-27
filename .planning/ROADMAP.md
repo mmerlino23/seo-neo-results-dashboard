@@ -32,7 +32,10 @@ Parse a markdown data file containing 11 businesses across 3 campaign types, the
   3. Each card has a "View Full Timeline" button that opens the public heatmap page in a new tab
   4. Clicking any heatmap image opens it full-size in a lightbox overlay
   5. The overall design uses bold gradients with texture — no solid color backgrounds — and feels like a sales showcase, not a data table
-**Plans**: TBD
+**Plans**: 3 plans
+- [ ] 02-01-PLAN.md — Dark theme design system + dashboard header with stats
+- [ ] 02-02-PLAN.md — Business card components with heatmap image grids + CTA buttons
+- [ ] 02-03-PLAN.md — Lightbox overlay + scroll entrance animations
 
 ### Phase 3: Interactivity
 **Goal**: Users can navigate and filter the dashboard without friction, on any device
@@ -52,5 +55,5 @@ Parse a markdown data file containing 11 businesses across 3 campaign types, the
 | Phase | Plans Complete | Status | Completed |
 |-------|----------------|--------|-----------|
 | 1. Data Foundation | 2/2 | Complete   | 2026-02-27 |
-| 2. Visual Dashboard | 0/TBD | Not started | - |
+| 2. Visual Dashboard | 0/3 | Planning complete | - |
 | 3. Interactivity | 0/TBD | Not started | - |
