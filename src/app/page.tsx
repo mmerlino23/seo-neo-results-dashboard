@@ -1,9 +1,9 @@
 // src/app/page.tsx
 // Main dashboard page — Server Component
-// Business cards will be added in Plan 02
 
 import { getDashboardStats, getBusinesses } from '@/data/businesses'
 import { DashboardHeader } from '@/components/DashboardHeader'
+import { BusinessCard } from '@/components/BusinessCard'
 
 export default function Home() {
   const stats = getDashboardStats()
@@ -13,10 +13,9 @@ export default function Home() {
     <>
       <DashboardHeader stats={stats} />
       <main className="main-content">
-        {/* Business cards will be added in Plan 02 */}
-        <p style={{ color: 'var(--color-text-secondary)' }}>
-          {businesses.length} businesses loaded — cards coming next.
-        </p>
+        {businesses.map((business) => (
+          <BusinessCard key={business.id} business={business} />
+        ))}
       </main>
     </>
   )
