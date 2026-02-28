@@ -2,24 +2,13 @@
 // Main dashboard page — Server Component
 
 import { getDashboardStats, getBusinesses } from '@/data/businesses'
-import { DashboardHeader } from '@/components/DashboardHeader'
-import { BusinessCard } from '@/components/BusinessCard'
-import { LightboxProvider } from '@/components/LightboxProvider'
+import { DashboardShell } from '@/components/DashboardShell'
 
 export default function Home() {
   const stats = getDashboardStats()
   const businesses = getBusinesses()
 
   return (
-    <>
-      <DashboardHeader stats={stats} />
-      <main className="main-content">
-        <LightboxProvider>
-          {businesses.map((business) => (
-            <BusinessCard key={business.id} business={business} />
-          ))}
-        </LightboxProvider>
-      </main>
-    </>
+    <DashboardShell businesses={businesses} stats={stats} />
   )
 }
