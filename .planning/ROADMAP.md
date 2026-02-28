@@ -46,8 +46,9 @@ Parse a markdown data file containing 11 businesses across 3 campaign types, the
   2. User can toggle campaign type filters and see only businesses from selected campaign types
   3. The page scrolls smoothly between sections
   4. The dashboard is fully usable on mobile — cards, images, filters, and lightbox all function on small screens
-**Plans**: 1 plan
+**Plans**: 2 plans
 - [x] 03-01-PLAN.md — Search input + campaign type filter pills + smooth scroll (completed 2026-02-27)
+- [x] 03-02-PLAN.md — Mobile responsiveness: media queries + touch-friendly lightbox (completed 2026-02-27)
 
 ## Progress
 
@@ -57,4 +58,4 @@ Parse a markdown data file containing 11 businesses across 3 campaign types, the
 |-------|----------------|--------|-----------|
 | 1. Data Foundation | 2/2 | Complete   | 2026-02-27 |
 | 2. Visual Dashboard | 3/3 | Complete   | 2026-02-27 |
-| 3. Interactivity | 1/1 | Complete   | 2026-02-27 |
+| 3. Interactivity | 2/2 | Complete   | 2026-02-27 |
