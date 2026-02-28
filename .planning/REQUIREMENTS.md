@@ -22,10 +22,10 @@
 
 ### Navigation
 
-- [ ] **NAV-01**: User can search/filter businesses by name via a search input
-- [ ] **NAV-02**: User can filter businesses by campaign type with toggle buttons
+- [x] **NAV-01**: User can search/filter businesses by name via a search input
+- [x] **NAV-02**: User can filter businesses by campaign type with toggle buttons
 - [x] **NAV-03**: Each business card has a "View Full Timeline" button that opens the public heatmap page in a new tab
-- [ ] **NAV-04**: Smooth scroll between business sections
+- [x] **NAV-04**: Smooth scroll between business sections
 
 ### Design
 
@@ -65,10 +65,10 @@
 | DISP-04 | Phase 2 | Complete |
 | DISP-05 | Phase 2 | Complete |
 | DISP-06 | Phase 2 | Complete |
-| NAV-01 | Phase 3 | Pending |
-| NAV-02 | Phase 3 | Pending |
+| NAV-01 | Phase 3 | Complete |
+| NAV-02 | Phase 3 | Complete |
 | NAV-03 | Phase 2 | Complete |
-| NAV-04 | Phase 3 | Pending |
+| NAV-04 | Phase 3 | Complete |
 | DSGN-01 | Phase 2 | Complete |
 | DSGN-02 | Phase 2 | Complete |
 | DSGN-03 | Phase 3 | Pending |
